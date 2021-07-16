@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+</head>
+<style type="text/css">
+	.login{
+		text-align: center;
+		border: solid;
+		padding-top: 5px;
+		padding-bottom: 20px;
+		width: 30%;
+		height: 100%;
+		background-color: white;
+
+	}
+</style>
+<body>
+	<div class="login">
+		<h2 style="font: Times Roman">School Management System</h2>
+	<form action="{{url_for('Test_Phase')}}" method="POST">
+	<label>User Name </label>
+	<input type="text" name="unam" placeholder="Your Name"> <br><br>
+
+	<label>Password </label>
+	<input type="Password" name="pass" placeholder="Your Password"> <br><br>
+
+	<input type="submit" value = "Login"> or
+
+	<input type="submit">
+	</form>
+</div>
+</body>
+</html>
